@@ -17,7 +17,7 @@
 								<div class="grid-x grid-padding-x">
 									<div class="small-12 medium-4 large-4 cell">
 										<h5>About</h5>
-										<p>There are 5.8 million small businesses in the UK with 13 million employees contributing billions to the economy. These businesses  and the hardworking owner-directors who run them have fallen between the cracks of the government’s support during the Covid-19 pandemic. Without a review of the rescue measures, many of these businesses will have no option but cease to trade, with devastating effects on the individuals and families they support.</p>
+										<p>Calling for fairness and equality for small limited companies excluded by the UK Government’s Coronavirus financial support packages.</p>
 				    				</div>
 									<div class="small-12 medium-4 large-4 cell">
 										&nbsp;
@@ -42,7 +42,7 @@
 										<p class="source-org copyright">&copy; <?php echo date('Y'); ?> #ForgottenLtd. All rights reserved.</p>
 									</div>
 									<div class="small-12 medium-4 large-4 cell text-right">
-										<p class=""><a href="http://forgotten-ltd.local/privacy-policy/" title="Privacy Policy">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" title="Terms &amp; Conditions">Terms &amp; Conditions</a></p>
+										<p class=""><a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/complaint-procedure" title="Complaint Procedure">Complaint Procedure</a></p>
 					    			</div>
 								</div>
 							</div>
