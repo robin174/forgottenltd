@@ -3,7 +3,7 @@
     <?php if(get_row_layout() == 'block_subheading_h2'): // Subheading: h2 ?>
         <div class="grid-container grid-x">
             <div class="small-12 large-12 medium-12 cell">
-                <h2 class="font--subheading"><?php the_sub_field('unit_subheading_h2'); ?></h2>  
+                <h2 class="font--sub-h2"><?php the_sub_field('unit_subheading_h2'); ?></h2>  
             </div>
         </div>
     <?php endif; ?>
@@ -11,7 +11,15 @@
     <?php if(get_row_layout() == 'block_subheading_h3'): // Subheading: h3 ?>
         <div class="grid-container grid-x">
             <div class="small-12 large-12 medium-12 cell">
-                <h3 class="font--subheading"><?php the_sub_field('unit_subheading_h3'); ?></h3>
+                <h3 class="font--sub-h3"><?php the_sub_field('unit_subheading_h3'); ?></h3>
+            </div>
+        </div>
+    <?php endif; ?>
+
+    <?php if(get_row_layout() == 'block_subheading_h4'): // Subheading: h4 ?>
+        <div class="grid-container grid-x">
+            <div class="small-12 large-12 medium-12 cell">
+                <h4 class="font--sub-h4"><?php the_sub_field('unit_subheading_h4'); ?></h3>
             </div>
         </div>
     <?php endif; ?>
@@ -19,7 +27,7 @@
     <?php if(get_row_layout() == 'block_introduction'): // Paragraph: Introduction ?>
         <div class="grid-container grid-x">
             <div class="small-12 large-12 medium-12 cell">
-                <p class="intro"><?php the_sub_field('unit_introduction'); ?></p>
+                <p class="font--intro"><?php the_sub_field('unit_introduction'); ?></p>
             </div>
         </div>
     <?php endif; ?>

@@ -9,12 +9,775 @@
 	],
 "creatorBuild": "32137",
 "files": {
-	"/.gitignore": {
+	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/.gitignore",
+		"oAP": "/404.php",
+		"oF": 0
+		},
+	"/archive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/archive.php",
+		"oF": 0
+		},
+	"/assets/images/apple-icon-touch.png": {
+		"ft": 32768,
+		"iS": 536,
+		"oA": 0,
+		"oAP": "/assets/images/apple-icon-touch.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/login-logo.png": {
+		"ft": 32768,
+		"iS": 1295,
+		"oA": 0,
+		"oAP": "/assets/images/login-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/src/apple-icon-touch.png": {
+		"ft": 32768,
+		"iS": 536,
+		"oA": 0,
+		"oAP": "/assets/images/src/apple-icon-touch.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/src/login-logo.png": {
+		"ft": 32768,
+		"iS": 1295,
+		"oA": 0,
+		"oAP": "/assets/images/src/login-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/src/win8-tile-icon.png": {
+		"ft": 32768,
+		"iS": 536,
+		"oA": 0,
+		"oAP": "/assets/images/src/win8-tile-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/win8-tile-icon.png": {
+		"ft": 32768,
+		"iS": 536,
+		"oA": 0,
+		"oAP": "/assets/images/win8-tile-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/scripts/js/init-foundation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/scripts/js/init-foundation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/scripts/js/wp-foundation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/scripts/js/wp-foundation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/scripts/scripts.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/scripts/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/scripts/scripts.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/scripts/scripts.js.map",
+		"oF": 0
+		},
+	"/assets/styles/login.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/login-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/styles/login.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/login.css.map",
+		"oF": 0
+		},
+	"/assets/styles/scss/_global.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/css/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/scss/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/css/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/scss/config.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/scss/config.rb",
+		"oF": 0
+		},
+	"/assets/styles/scss/login.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/css/login.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/scss/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/css/style.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/styles/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/style.css.map",
+		"oF": 0
+		},
+	"/comments.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/comments.php",
+		"oF": 0
+		},
+	"/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/favicon.png": {
+		"ft": 32768,
+		"iS": 305,
+		"oA": 0,
+		"oAP": "/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/footer.php",
+		"oF": 0
+		},
+	"/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions.php",
+		"oF": 0
+		},
+	"/functions/admin.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/admin.php",
+		"oF": 0
+		},
+	"/functions/cleanup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/cleanup.php",
+		"oF": 0
+		},
+	"/functions/comments.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/comments.php",
+		"oF": 0
+		},
+	"/functions/custom-post-type.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/custom-post-type.php",
+		"oF": 0
+		},
+	"/functions/disable-emoji.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/disable-emoji.php",
+		"oF": 0
+		},
+	"/functions/editor-styles.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/editor-styles.php",
+		"oF": 0
+		},
+	"/functions/enqueue-scripts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/enqueue-scripts.php",
+		"oF": 0
+		},
+	"/functions/login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/login.php",
+		"oF": 0
+		},
+	"/functions/menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/menu.php",
+		"oF": 0
+		},
+	"/functions/page-navi.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/page-navi.php",
+		"oF": 0
+		},
+	"/functions/related-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/related-posts.php",
+		"oF": 0
+		},
+	"/functions/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/sidebar.php",
+		"oF": 0
+		},
+	"/functions/theme-support.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/theme-support.php",
+		"oF": 0
+		},
+	"/functions/translation/da_DK.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/da_DK.po",
+		"oF": 0
+		},
+	"/functions/translation/de_DE.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/de_DE.mo",
+		"oF": 0
+		},
+	"/functions/translation/de_DE.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/de_DE.po",
+		"oF": 0
+		},
+	"/functions/translation/default.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/default.mo",
+		"oF": 0
+		},
+	"/functions/translation/default.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/default.po",
+		"oF": 0
+		},
+	"/functions/translation/es_ES.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/es_ES.mo",
+		"oF": 0
+		},
+	"/functions/translation/es_ES.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/es_ES.po",
+		"oF": 0
+		},
+	"/functions/translation/fr_FR.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/fr_FR.mo",
+		"oF": 0
+		},
+	"/functions/translation/fr_FR.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/fr_FR.po",
+		"oF": 0
+		},
+	"/functions/translation/he_IL.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/he_IL.mo",
+		"oF": 0
+		},
+	"/functions/translation/he_IL.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/he_IL.po",
+		"oF": 0
+		},
+	"/functions/translation/hr.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/hr.mo",
+		"oF": 0
+		},
+	"/functions/translation/hr.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/hr.po",
+		"oF": 0
+		},
+	"/functions/translation/it_IT.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/it_IT.mo",
+		"oF": 0
+		},
+	"/functions/translation/it_IT.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/it_IT.po",
+		"oF": 0
+		},
+	"/functions/translation/nl_NL.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/nl_NL.mo",
+		"oF": 0
+		},
+	"/functions/translation/nl_NL.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/nl_NL.po",
+		"oF": 0
+		},
+	"/functions/translation/pl_PL.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/pl_PL.mo",
+		"oF": 0
+		},
+	"/functions/translation/pl_PL.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/pl_PL.po",
+		"oF": 0
+		},
+	"/functions/translation/pt_BR.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/pt_BR.mo",
+		"oF": 0
+		},
+	"/functions/translation/pt_PT.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/pt_PT.mo",
+		"oF": 0
+		},
+	"/functions/translation/pt_PT.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/pt_PT.po",
+		"oF": 0
+		},
+	"/functions/translation/README": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/README",
+		"oF": 0
+		},
+	"/functions/translation/ru_RU.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/ru_RU.mo",
+		"oF": 0
+		},
+	"/functions/translation/ru_RU.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/ru_RU.po",
+		"oF": 0
+		},
+	"/functions/translation/sv_SE.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/sv_SE.mo",
+		"oF": 0
+		},
+	"/functions/translation/sv_SE.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/sv_SE.po",
+		"oF": 0
+		},
+	"/functions/translation/translation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/translation.php",
+		"oF": 0
+		},
+	"/functions/translation/zh_CN.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/zh_CN.mo",
+		"oF": 0
+		},
+	"/functions/translation/zh_CN.po": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/translation/zh_CN.po",
+		"oF": 0
+		},
+	"/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header.php",
+		"oF": 0
+		},
+	"/images/use-vimeo-ph.jpg": {
+		"ft": 16384,
+		"iS": 90351,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-vimeo-ph.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/page-boilerplate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-boilerplate.php",
+		"oF": 0
+		},
+	"/page-home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-home.php",
+		"oF": 0
+		},
+	"/page-resources.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-resources.php",
+		"oF": 0
+		},
+	"/page-steps.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-steps.php",
+		"oF": 0
+		},
+	"/page-template.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-template.php",
+		"oF": 0
+		},
+	"/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page.php",
+		"oF": 0
+		},
+	"/parts/content-byline.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/content-byline.php",
+		"oF": 0
+		},
+	"/parts/content-missing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/content-missing.php",
+		"oF": 0
+		},
+	"/parts/content-offcanvas.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/content-offcanvas.php",
+		"oF": 0
+		},
+	"/parts/loop-archive-grid.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/loop-archive-grid.php",
+		"oF": 0
+		},
+	"/parts/loop-archive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/loop-archive.php",
+		"oF": 0
+		},
+	"/parts/loop-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/loop-page.php",
+		"oF": 0
+		},
+	"/parts/loop-single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/loop-single.php",
+		"oF": 0
+		},
+	"/parts/nav-offcanvas-topbar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/nav-offcanvas-topbar.php",
+		"oF": 0
+		},
+	"/parts/nav-offcanvas.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/nav-offcanvas.php",
+		"oF": 0
+		},
+	"/parts/nav-title-bar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/nav-title-bar.php",
+		"oF": 0
+		},
+	"/parts/nav-topbar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parts/nav-topbar.php",
 		"oF": 0
 		},
 	"/README.md": {
@@ -35,6 +798,455 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/screenshot.png": {
+		"ft": 32768,
+		"iS": 8867,
+		"oA": 0,
+		"oAP": "/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/scss/areas/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/areas/_bg-black.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_bg-black.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/areas/_bg-orange-lt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_bg-orange-lt.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/areas/_bg-orange.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_bg-orange.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/areas/_bg-white.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_bg-white.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/areas/_head-main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_head-main.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/base/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/base/_body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_body.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/base/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/base/_utility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_utility.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/blocks/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/blocks/_resource.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_resource.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/blocks/_step.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_step.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/_blockquote.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_blockquote.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/_button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_button.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/_figure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_figure.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/_form.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_form.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/components/_icon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_icon.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/helpers/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/helpers/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/layout/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/layout/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/layout/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/vendors/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/search.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/search.php",
+		"oF": 0
+		},
+	"/searchform.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/searchform.php",
+		"oF": 0
+		},
+	"/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sidebar.php",
+		"oF": 0
+		},
+	"/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/single.php",
+		"oF": 0
+		},
+	"/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/template-full-width.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-full-width.php",
+		"oF": 0
+		},
+	"/templates/area--foot-main.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/area--foot-main.php",
+		"oF": 0
+		},
+	"/templates/area--head-main.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/area--head-main.php",
+		"oF": 0
+		},
+	"/templates/template--buildingblocks.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/template--buildingblocks.php",
+		"oF": 0
+		},
+	"/templates/template--resource.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/template--resource.php",
+		"oF": 0
+		},
+	"/templates/template--steps.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/template--steps.php",
+		"oF": 0
 		}
 	},
 "hooks": [

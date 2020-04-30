@@ -13,11 +13,7 @@
     <section class="entry-content" itemprop="text">
 	    <?php the_content(); ?>
 	</section> <!-- end article section -->
-						
-	<footer class="article-footer">
-		 <?php wp_link_pages(); ?>
-	</footer> <!-- end article footer -->
 						    
-	<?php comments_template(); ?>
+	<?php /* <?php comments_template(); ?> */ ?>
 					
 </article> <!-- end article -->
