@@ -1,0 +1,61 @@
+@import "bourbon";
+
+/* Initial sizing - set in 'helpers' - '_variables.scss' */
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+/* Base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+	color: $color--primary-black;
+}
+
+main {
+	margin-top:0;
+	margin-bottom:0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+a {
+	transition: 0.3s;
+	color: $color--primary-orange;
+	&:hover {
+		color: $color--primary-orange-dark-10;
+	}
+}
+
+.background-wrapper {
+	background-color: $color--primary-white;
+}
+
+.grid-container {
+	max-width: 67.5rem; // 1080px wide, default = 75rem
+}
+
+strong {
+	font-weight: $font--bodycopy-bold;
+}
+
+// If Forgotten needs the '#' before it
+.hash {
+	&:before {
+		content: '#'
+	}
+}

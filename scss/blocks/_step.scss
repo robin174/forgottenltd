@@ -1,0 +1,17 @@
+.block--step {
+	// If obackgound-color, no need for padding
+	// padding-top: $padding--small;
+	// padding-bottom: $padding--small;
+	margin-bottom: $margin--general;
+	& a {
+		font-weight: $font--bodycopy-bold;
+	}
+	& p.note {
+		color: $color--primary-black-lt-50;
+		font-size: 90%;
+		font-style: italic;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

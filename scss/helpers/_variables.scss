@@ -1,0 +1,62 @@
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$color--primary-orange: #F08F35;
+$color--primary-white: #fff;
+$color--primary-black: #000;
+
+$color--secondary-blue: #0287AF; // rgba();
+
+$color--primary-orange-lt-15: lighten($color--primary-orange, 15%);
+$color--primary-orange-lt-30: lighten($color--primary-orange, 30%);
+$color--primary-orange-dark-10: darken($color--primary-orange, 10%);
+$color--primary-orange-dark-20: darken($color--primary-orange, 20%);
+
+$color--primary-black-lt-50: lighten($color--primary-black, 50%);
+
+
+/* Fonts - From Typekit
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+// Futura PT Medium, font-family: 'futura-pt', sans-serif; font-weight: 500; font-style: normal;
+// Futura PT Bold, font-family: 'futura-pt-bold', sans-serif; font-weight: 700; font-style: normal;
+// Futura PT Cond Medium, font-family: 'futura-pt-condensed', sans-serif; font-weight: 500; font-style: normal;
+// For italics, use font-style: italic;
+
+// Headlines
+$font--futura: 'futura-pt', sans-serif;
+$font--futura-bold: 'futura-pt-bold', sans-serif;
+$font--futura-condensed: 'futura-pt-condensed', sans-serif;
+
+// Fonts / we might not need all of these 
+$font--headline-large: $font--futura-bold;
+$font--headline-small: $font--futura-bold;
+$font--subheading: $font--futura-bold;
+$font--standout: $font--futura;
+$font--standout-bold: $font--futura-bold;
+$font--contrast: $font--futura-condensed;
+
+// Body Copy
+$font--bodycopy: 'Roboto', sans-serif;
+
+// Body Copy - Weights
+$font--bodycopy-regular: 400; // 'Light 300' also available
+$font--bodycopy-medium: 500;
+$font--bodycopy-bold: 700;
+
+
+/* Initial sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
+/*  NOTE. If normal, 100% equals 16px sizing. */
+html {
+    font-size: 100%; // 62.5% was just too tight for a site like this
+}
+
+body {
+	font-size: 1em; /* 16px, currently ems cause chrome bug misinterpreting rems on body element */
+}
+
+$sizing--base: 1.5rem;
+$padding--small: $sizing--base; // 24px
+$padding--general: $sizing--base *2; // 48px
+$margin--small: $sizing--base; // 24px
+$margin--general: $sizing--base *2; // 48px

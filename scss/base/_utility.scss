@@ -1,0 +1,59 @@
+// These can and will override is !important is included
+
+/* Color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.color--or {
+	color: $color--primary-orange!important;
+}
+
+.color--bk {
+	color: $color--primary-black!important;
+}
+
+.color--wh {
+	color: $color--primary-white!important;
+}
+.color--or-lt {
+	color: $color--primary-orange-lt-30!important;
+}
+
+
+.bg--or-lt {
+	background-color: $color--primary-orange-lt-30!important;
+}
+
+
+/* Font family
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.font--condensed {
+	font-family: $font--futura-condensed;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+.font--bold {
+	font-family: $font--futura-bold;
+}
+
+
+/* Font size
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.font--increase-sm {
+	font-size: 120%;
+}
+
+.font--increase-lg {
+	font-size: 150%;
+}
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.spacing--top-sm {
+	margin-top: $margin--small / 2;
+}
+
+.spacing--top-lg {
+	margin-top: $margin--general;
+}
+

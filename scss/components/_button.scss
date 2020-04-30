@@ -1,0 +1,45 @@
+button, .button {
+	font-family: $font--futura-bold;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	padding: $padding--small/2 $padding--small;
+	border-radius: 5px;
+}
+
+button.button--cta-or, a.button--cta-or {
+	background-color: $color--primary-orange;
+	transition-property: background-color;
+  	transition-duration: .3s;
+	&:link { // unvisited link
+		background-color: $color--primary-orange;
+	}
+	&:visited { // visited link
+		background-color: $color--primary-orange;
+	}
+	&:active { // selected link
+		background-color: $color--primary-orange;
+	}
+	&:hover { // mouse over link
+		background-color: $color--primary-orange-dark-10;
+	}
+}
+
+// Black buttons scale
+button.button--cta-bl, a.button--cta-bk {
+	background-color: $color--primary-black;
+	transition-property: background-color, transform;
+  	transition-duration: .3s;
+	&:link { // unvisited link
+		background-color: $color--primary-black;
+	}
+	&:visited { // visited link
+		background-color: $color--primary-black;
+	}
+	&:active { // selected link
+		background-color: $color--primary-black;
+	}
+	&:hover {
+		transform: scale(1.1);
+		background-color: $color--primary-orange-dark-10;
+	}
+}

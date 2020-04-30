@@ -1,0 +1,14 @@
+section.area--head-main {
+	background-color: $color--primary-orange;
+	padding-top: $padding--general;
+	padding-bottom: $padding--general;
+	h1, h2 {
+		margin-top:0;
+	}
+	h3, h4 {
+		margin-bottom:0;
+	}
+	h5 {
+		color: $color--primary-white;
+	}
+}

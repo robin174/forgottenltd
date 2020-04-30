@@ -1,0 +1,43 @@
+footer, .footer {
+	background-color: $color--primary-orange-dark-10;
+	margin-top:0;
+	padding-top: $padding--general *1.5;
+	padding-bottom: $padding--general;
+	& h1,h2,h3,h4,h5,h6 {
+		color: $color--primary-white;
+	}
+	& p {
+		color: $color--primary-white;
+	}
+	& a {
+		color: $color--primary-white;
+	}
+	& ul li {
+		font-family: $font--futura-bold;
+		margin-bottom: 5px;
+		& i {
+			color: $color--primary-orange-lt-15;
+		}
+	}
+}
+
+.foot--primary {
+}
+
+.foot--secondary {
+	margin-top: $margin--small;
+	& p {
+		color: $color--primary-orange-lt-30;
+		margin-bottom: 0;
+		font-size: 80%;
+	}
+	a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	& .grid-container {
+		border-top: 2px solid $color--primary-orange-lt-15;
+		padding-top: $padding--small;
+	}
+}

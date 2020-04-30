@@ -1,0 +1,12 @@
+section.area--bg-white {
+	background-color: $color--primary-white;
+	color: $color--primary-black;
+	padding-top: $padding--general*2;
+	padding-bottom: $padding--general*2;
+	& p {
+		color: $color--primary-black;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

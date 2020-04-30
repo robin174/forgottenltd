@@ -1,0 +1,9 @@
+section.area--bg-black {
+	background-color: $color--primary-black;
+	color: $color--primary-white;
+	padding-top: $padding--general*1.5;
+	padding-bottom: $padding--general*1.5;
+	& p {
+		color: $color--primary-white;
+	}
+}
