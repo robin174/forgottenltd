@@ -11,7 +11,7 @@ get_header(); ?>
 
 			<section class="area--bg-white">
 				<div class="grid-container">
-		            <div class="grid-x grid-margin-x small-up-1 medium-up-3 large-up-4">
+		            <div class="grid-x grid-margin-x small-up-1 medium-up-3 large-up-3">
 
                 		<?php
 				        $args=array(
@@ -33,7 +33,5 @@ get_header(); ?>
 
 		</main>
 	</div> <!-- end #content -->
-
-	<?php get_template_part('templates/area--foot-main'); ?>
 
 <?php get_footer(); ?>

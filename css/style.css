@@ -308,6 +308,12 @@ section.area--bg-orange-light {
   .block--step:last-child {
     margin-bottom: 0; }
 
+.block--team {
+  background-color: #fef8f3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  .block--team .block--team-info {
+    padding: 1.5rem; }
+
 button, .button {
   font-family: "futura-pt-bold", sans-serif;
   text-transform: uppercase;

@@ -987,6 +987,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/blocks/_team.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_team.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/components/_all.scss": {
 		"aP": 0,
 		"bl": 0,
