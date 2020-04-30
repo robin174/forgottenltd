@@ -676,6 +676,14 @@
 		"oAP": "/page-steps.php",
 		"oF": 0
 		},
+	"/page-team.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-team.php",
+		"oF": 0
+		},
 	"/page-template.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1222,6 +1230,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/area--head-main.php",
+		"oF": 0
+		},
+	"/templates/block--team.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/block--team.php",
 		"oF": 0
 		},
 	"/templates/template--buildingblocks.php": {
