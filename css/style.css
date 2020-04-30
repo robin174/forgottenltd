@@ -310,7 +310,8 @@ section.area--bg-orange-light {
 
 .block--team {
   background-color: #fef8f3;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.5rem; }
   .block--team .block--team-info {
     padding: 1.5rem; }
 
