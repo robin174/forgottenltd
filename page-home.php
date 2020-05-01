@@ -17,14 +17,14 @@ get_header(); ?>
 	                        <a class="button button--cta-bk" href="https://petition.parliament.uk/petitions/310515" target="_blank"><i class="fas fa-pen-nib fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;Sign the petition</a>
 
 	                        <!-- Add an animation in, EWS -->
-	                        <p class="spacing--top-sm font--bold font--increase-lg color--bk signatures"><em>&nbsp;</em></p>
+	                        <p class="spacing--top-sm font--bold font--increase-lg color--bk signatures"><span class="signatures"></span><span style="border-bottom:5px solid black;margin-bottom:5px;">We need more.</span></p>
 	                        <script>
 	                        	var petitionURL = "https://petition.parliament.uk/petitions/310515.json";
 	                        	$.getJSON(petitionURL, function(data) {
 	                        		console.log(data);
 
 	                        		var pNo = data.data.attributes.signature_count;
-	                        		$("p.signatures").html("We currently have " + pNo + " signatures. We need more." );
+	                        		$("span.signatures").html("We currently have " + pNo + " signatures. " );
 	                        	});
 	                        </script>
 	                        <!-- getJSON: https://petition.parliament.uk/petitions.json -->
@@ -44,7 +44,8 @@ get_header(); ?>
 	                        <p class=""><a href=""><strong>Pellentesque nisl. Nulla et est at tellus blandit finibus.</strong></a></p>
 	                    </div>
 	                    <div class="small-12 large-6 medium-6 cell">
-	                    	<img src="<?php echo get_template_directory_uri(); ?>/images/use-vimeo-ph.jpg">
+	                    	<iframe src="https://player.vimeo.com/video/414013285" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	                    	<?php /* <img src="<?php echo get_template_directory_uri(); ?>/images/use-vimeo-ph.jpg"> */ ?>
 	                    </div>
 	                </div><!-- end .row -->
 	            </div>
