@@ -38,6 +38,12 @@ main {
 a {
   transition: 0.3s;
   color: #F08F35; }
+  a:link {
+    color: #F08F35; }
+  a:visited {
+    color: #F08F35; }
+  a:active {
+    color: #F08F35; }
   a:hover {
     color: #e17511; }
 

@@ -36,7 +36,16 @@ main {
 a {
 	transition: 0.3s;
 	color: $color--primary-orange;
-	&:hover {
+	&:link { // unvisited link
+		color: $color--primary-orange;
+	}
+	&:visited { // visited link
+		color: $color--primary-orange;
+	}
+	&:active { // selected link
+		color: $color--primary-orange;
+	}
+	&:hover { // mouse over link
 		color: $color--primary-orange-dark-10;
 	}
 }

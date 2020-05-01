@@ -33,18 +33,19 @@ get_header(); ?>
 	            </div>
 	        </section>
 
-
 	        <!-- Full width: White background -->
 			<section class="area--bg-white">
 	            <div class="grid-container">
 	                <div class="grid-x grid-padding-x">
-	                	<div class="small-12 large-6 medium-6 cell">
+	                	<div class="small-12 large-6 medium-6 cell small-order-2 medium-order-1">
 	                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, morbi rutrum.</h4>
 	                        <p>Aenean vel lacus dictum, tincidunt tortor ac, cursus mi. Duis vehicula odio eros, sed aliquet sapien tempus interdum. Phasellus ac finibus nulla. In ultrices purus vel metus facilisis, varius cursus arcu volutpat. Etiam purus sem, lobortis non commodo non, ultrices ut massa.</p>
 	                        <p class=""><a href=""><strong>Pellentesque nisl. Nulla et est at tellus blandit finibus.</strong></a></p>
 	                    </div>
-	                    <div class="small-12 large-6 medium-6 cell">
+	                    <div class="small-12 large-6 medium-6 cell small-order-1 medium-order-2">
 	                    	<iframe src="https://player.vimeo.com/video/414013285" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+	                    	<p style="font-size: 80%;color:#aaa;text-align:right;"><i class="fas fa-copyright"></i>&nbsp;Lee Climpson from <a href="https://www.wearetransmission.com/" target="_blank" title="Transmission Productions">Transmission Productions</a></p>
 	                    	<?php /* <img src="<?php echo get_template_directory_uri(); ?>/images/use-vimeo-ph.jpg"> */ ?>
 	                    </div>
 	                </div><!-- end .row -->
