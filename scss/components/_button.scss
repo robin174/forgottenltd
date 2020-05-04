@@ -7,6 +7,7 @@ button, .button {
 }
 
 button.button--cta-or, a.button--cta-or {
+	color: $color--primary-white;
 	background-color: $color--primary-orange;
 	transition-property: background-color;
   	transition-duration: .3s;
@@ -26,6 +27,7 @@ button.button--cta-or, a.button--cta-or {
 
 // Black buttons scale
 button.button--cta-bl, a.button--cta-bk {
+	color: $color--primary-white;
 	background-color: $color--primary-black;
 	transition-property: background-color, transform;
   	transition-duration: .3s;

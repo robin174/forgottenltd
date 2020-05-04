@@ -138,6 +138,9 @@ h3 {
 
 h4 {
   font-family: "futura-pt-bold", sans-serif; }
+  h4.home--hero {
+    line-height: 1.25;
+    margin-bottom: 1rem; }
 
 h5 {
   font-family: "futura-pt", sans-serif;
@@ -176,6 +179,11 @@ p {
     font-size: 1.2rem;
     line-height: 1.2;
     margin-bottom: 2rem; }
+  p.video--inpage-credit {
+    font-size: 0.8rem;
+    color: #737373 !important;
+    text-align: right;
+    margin-bottom: 0 !important; }
   p a {
     font-weight: 700; }
 
@@ -308,7 +316,7 @@ section.area--bg-orange-light {
   .block--step a {
     font-weight: 700; }
   .block--step p.note {
-    color: gray;
+    color: #737373;
     font-size: 90%;
     font-style: italic; }
   .block--step:last-child {
@@ -329,6 +337,7 @@ button, .button {
   border-radius: 5px; }
 
 button.button--cta-or, a.button--cta-or {
+  color: #fff;
   background-color: #F08F35;
   transition-property: background-color;
   transition-duration: .3s; }
@@ -342,6 +351,7 @@ button.button--cta-or, a.button--cta-or {
     background-color: #e17511; }
 
 button.button--cta-bl, a.button--cta-bk {
+  color: #fff;
   background-color: #000;
   transition-property: background-color, transform;
   transition-duration: .3s; }
