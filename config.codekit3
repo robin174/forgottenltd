@@ -1245,6 +1245,14 @@
 		"oAP": "/templates/area--head-main.php",
 		"oF": 0
 		},
+	"/templates/block--resource.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/block--resource.php",
+		"oF": 0
+		},
 	"/templates/block--team.php": {
 		"cB": 0,
 		"ft": 8192,

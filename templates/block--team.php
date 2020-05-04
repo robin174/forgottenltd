@@ -6,7 +6,7 @@
         <section class="block--team-info">
             <h4><?php the_title();?></h4>
             <?php the_field('biography');?>
-            <a href="<?php the_field('LinkedIn');?>" title="Find <?php the_title();?> on LinkedIn" target="_blank">(i) Find <?php the_title();?> on LinkedIn</a>
+            <a href="<?php the_field('linkedin_url');?>" title="Find <?php the_title();?> on LinkedIn" target="_blank">(i) Find <?php the_field('second_name');?> on LinkedIn</a>
             <hr>
             <p><a href="<?php the_field('company_url');?>"><?php the_field('company_name');?></a></p>
         </section>
