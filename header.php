@@ -39,8 +39,15 @@
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/91bc383f00.js" crossorigin="anonymous"></script>
 		
-		<!-- Google Webmaster -->
-		<!-- To add -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165599780-1"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-165599780-1');
+			</script>
 		<?php wp_head(); ?>
 	</head>
 			
