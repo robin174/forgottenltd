@@ -625,6 +625,17 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/images/logo-forgottenltd-admin.png": {
+		"ft": 32768,
+		"iS": 2494,
+		"oA": 0,
+		"oAP": "/images/logo-forgottenltd-admin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/use-vimeo-ph.jpg": {
 		"ft": 16384,
 		"iS": 90351,

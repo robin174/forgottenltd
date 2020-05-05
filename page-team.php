@@ -17,7 +17,8 @@ get_header(); ?>
 				        $args=array(
 				            'post_type' => 'team',
 				            'post_status' => 'publish',
-				            'order' => 'desc'
+				            'orderby' => 'title',
+    						'order'   => 'ASC'
 				        );
 				        $my_query = null;
 				        $my_query = new WP_Query($args);

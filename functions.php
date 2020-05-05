@@ -98,3 +98,21 @@ add_action('wp_enqueue_scripts', 'fltd_enqueue_scripts');
 
 // For Typekit
 // https://wpbeaches.com/stop-flicker-flash-load-adobe-typekit-font-faster-wordpress/
+
+
+// ---
+// Custom Admin Logo
+// -------------------------------------------------------------
+function fltd_login_logo() { ?>
+    <style type="text/css">
+        body.login div#login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/logo-forgottenltd-admin.png);
+            padding-bottom: 2px;
+            -webkit-background-size: 315px 55px;
+            background-size: 315px 55px;
+            height: 55px;
+            width: 315px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'fltd_login_logo' );

@@ -36,6 +36,7 @@ main {
 a {
 	transition: 0.3s;
 	color: $color--primary-orange;
+	font-weight: $font--bodycopy-bold;
 	&:link { // unvisited link
 		color: $color--primary-orange;
 	}

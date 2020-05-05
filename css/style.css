@@ -37,7 +37,8 @@ main {
 
 a {
   transition: 0.3s;
-  color: #F08F35; }
+  color: #F08F35;
+  font-weight: 700; }
   a:link {
     color: #F08F35; }
   a:visited {
