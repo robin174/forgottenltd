@@ -13,6 +13,11 @@ get_header(); ?>
 	                <div class="grid-x grid-padding-x">
 	                	<div class="large-offset-1 small-12 large-10 medium-12 cell text-center">
 	                	 	<h1 class="logo--hero">#ForgottenLtd</h1>
+
+	                	 	<!-- Calling for fairness and equality
+							for small limited companies -->
+							<!-- In caps as per FB page: https://www.facebook.com/groups/LtdCompanyDirectors/?fref=nf -->
+
 	                        <p class="home--hero font--bold">Welcome to The <strong>#ForgottenLtd</strong> Campaign for small limited company directors affected by the coronavirus pandemic in the UK. <strong>We need your help.</strong></p>
 	                        <a class="button button--cta-bk" href="https://petition.parliament.uk/petitions/310515" target="_blank"><i class="fas fa-pen-nib fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;Sign the petition</a>
 
