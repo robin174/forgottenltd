@@ -43,7 +43,7 @@
 										<p class="source-org copyright">&copy; <?php echo date('Y'); ?> The #ForgottenLtd Campaign. All rights reserved.</p>
 									</div>
 									<div class="small-12 medium-4 large-4 cell text-right">
-										<p class=""><a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a>.</p>
+										<p class=""><a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a></p>
 										<?php /* &nbsp;&nbsp;|&nbsp;&nbsp;<a href="/complaint-procedure" title="Complaint Procedure">Complaint Procedure</a></p> */ ?>
 					    			</div>
 								</div>
