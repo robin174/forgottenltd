@@ -1204,6 +1204,22 @@
 		"oAP": "/sidebar.php",
 		"oF": 0
 		},
+	"/single-resource.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/single-resource.php",
+		"oF": 0
+		},
+	"/single-team.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/single-team.php",
+		"oF": 0
+		},
 	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
