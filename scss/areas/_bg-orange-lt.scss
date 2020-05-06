@@ -1,9 +1,27 @@
 section.area--bg-orange-light {
 	background-color: $color--primary-orange-lt-30;
 	color: $color--primary-black;
-	padding-top: $padding--general *2;
-	padding-bottom: $padding--general *2;
+	padding-top: $padding--general;
+	padding-bottom: $padding--small;
+	padding-left: $padding--small;
+	padding-right: $padding--small;
 	& p {
 		color: $color--primary-black;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	section.area--bg-orange-light {
+		padding-top: $padding--general *2;
+		padding-bottom: $padding--general *2;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	section.area--bg-orange-light {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }

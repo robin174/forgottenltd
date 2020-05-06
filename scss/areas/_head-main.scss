@@ -1,7 +1,9 @@
 section.area--head-main {
 	background-color: $color--primary-orange;
-	padding-top: $padding--general;
-	padding-bottom: $padding--general;
+	padding-top: $padding--small;
+	padding-bottom: $padding--small;
+	padding-left: $padding--small;
+	padding-right: $padding--small;
 	h1, h2 {
 		margin-top:0;
 	}
@@ -10,5 +12,15 @@ section.area--head-main {
 	}
 	h5 {
 		color: $color--primary-white;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	section.area--head-main {
+		padding-top: $padding--general;
+		padding-bottom: $padding--general;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }

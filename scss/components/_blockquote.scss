@@ -4,7 +4,7 @@ blockquote {
 	border-radius: .7em;
 	font-size: 1.2rem;
 	font-family: $font--subheading;
-	box-shadow: 10px 10px 0 rgba(0,0,0,0.05);
+	margin-bottom: $margin--general*1.5;
 	& cite {
 		font-style: normal;
 		font-size: 1rem;
@@ -48,5 +48,13 @@ blockquote {
 		&:after {
 			border-top-color: $color--primary-black;
 		}
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	blockquote {
+		margin-bottom: 0;
+		box-shadow: 10px 10px 0 rgba(0,0,0,0.05);
 	}
 }

@@ -1,8 +1,10 @@
 footer, .footer {
 	background-color: $color--primary-orange-dark-10;
 	margin-top:0;
-	padding-top: $padding--general;
-	padding-bottom: $padding--general;
+	padding-top: $padding--small;
+	padding-bottom: $padding--small;
+	padding-left: $padding--small;
+	padding-right: $padding--small;
 	& h1,h2,h3,h4,h5,h6 {
 		color: $color--primary-white;
 	}
@@ -39,5 +41,15 @@ footer, .footer {
 	& .grid-container {
 		border-top: 2px solid $color--primary-orange-lt-15;
 		padding-top: $padding--small;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	footer, .footer {
+		padding-top: $padding--small *1.5;
+		padding-bottom: $padding--small *1.5;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }

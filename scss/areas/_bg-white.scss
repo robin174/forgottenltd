@@ -1,12 +1,30 @@
 section.area--bg-white {
 	background-color: $color--primary-white;
 	color: $color--primary-black;
-	padding-top: $padding--general*2;
-	padding-bottom: $padding--general*2;
+	padding-top: $padding--general;
+	padding-bottom: $padding--general;
+	padding-left: $padding--small;
+	padding-right: $padding--small;
 	& p {
 		color: $color--primary-black;
 		&:last-child {
 			margin-bottom: 0;
 		}
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	section.area--bg-white {
+		padding-top: $padding--general *1.5;
+		padding-bottom: $padding--general *1.5;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	section.area--bg-white {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }

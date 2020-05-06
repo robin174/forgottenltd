@@ -1,9 +1,27 @@
 section.area--bg-orange {
 	background-color: $color--primary-orange;
 	color: $color--primary-black;
-	padding-top: $padding--general;
-	padding-bottom: $padding--general;
+	padding-top: $padding--small;
+	padding-bottom: $padding--small;
+	padding-left: $padding--small;
+	padding-right: $padding--small;
 	& p {
 		color: $color--primary-black;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	section.area--bg-orange {
+		padding-top: $padding--general;
+		padding-bottom: $padding--general;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	section.area--bg-orange {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
