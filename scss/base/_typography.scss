@@ -147,10 +147,10 @@ ul {
 			font-weight: $font--bodycopy-bold;
 			content: "\2022"; /* Unicode of character to precede the list item */
 			display: inline-block;
-			width: 1rem;
-			margin-left: -0.5rem;
+			width: 1.5rem;
+			margin-left: -1.5rem;
 		}
-		& li:last-child{
+		& li:last-child {
 			margin-bottom: 0;
 		}
 	}	
