@@ -198,7 +198,7 @@ ul.no-bullets {
     margin-left: 0; }
 
 ul.bullet--or {
-  margin-left: 2rem;
+  margin-left: 1.8rem;
   list-style: none; }
   ul.bullet--or li::before {
     vertical-align: middle;

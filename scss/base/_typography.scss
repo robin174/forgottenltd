@@ -133,11 +133,11 @@ ul {
 		& li {
 			list-style: none;
 			font-size: 1.2rem;
-			margin-left:0;
+			margin-left: 0;
 		}
 	}
 	&.bullet--or {
-		margin-left: 2rem;
+		margin-left: 1.8rem;
 		list-style: none;
 		& li::before {
 			vertical-align: middle;
