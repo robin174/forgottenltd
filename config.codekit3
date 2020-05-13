@@ -99,7 +99,7 @@
 		"oA": 0,
 		"oAP": "/assets/scripts/js/init-foundation-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/scripts/js/wp-foundation.js": {
@@ -110,7 +110,7 @@
 		"oA": 0,
 		"oAP": "/assets/scripts/js/wp-foundation-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/scripts/scripts.js": {
@@ -121,7 +121,7 @@
 		"oA": 0,
 		"oAP": "/assets/scripts/scripts-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/scripts/scripts.js.map": {
@@ -654,6 +654,17 @@
 		"oA": 0,
 		"oAP": "/index.php",
 		"oF": 0
+		},
+	"/js/masonry.pkgd.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/masonry.pkgd.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/page-boilerplate.php": {
 		"cB": 0,
@@ -1294,14 +1305,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/template--buildingblocks.php",
-		"oF": 0
-		},
-	"/templates/template--resource.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/template--resource.php",
 		"oF": 0
 		},
 	"/templates/template--steps.php": {
@@ -2819,7 +2822,7 @@
 			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
 			}
 		},
-	"esLintSourceType": 0,
+	"esLintSourceType": 2,
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
@@ -3241,7 +3244,7 @@
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

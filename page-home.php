@@ -47,6 +47,8 @@ get_header(); ?>
 							<h4 class="home--hero">We do not qualify for any meaningful government support.</h4>
 	                        <p>The <strong>#ForgottenLtd</strong> Campaign exists to raise awareness of the lack of meaningful government support for the small business community across the UK. We call on the government to address this disparity by extending COVID-19 support packages to those of us left behind.</p>
 	                        <p><strong>We are asking for parity. We are asking not to be forgotten.</strong></p>
+	                        <a class="button button--cta-or" href="https://forgottenltd.com/wp-content/uploads/2020/05/ForgottenLtd-Manifesto-06May.pdf" target="_blank"><i class="fas fa-file-pdf fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;View our manifesto</a>
+	                        
 	                    </div>
 	                    <div class="small-12 large-6 medium-6 cell small-order-1 medium-order-2">
 	                    	<iframe src="https://player.vimeo.com/video/414013285" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

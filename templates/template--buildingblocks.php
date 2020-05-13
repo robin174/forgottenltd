@@ -131,15 +131,15 @@
                      <?php if( get_sub_field('unit_introduction_para') ): ?>
                         <p class="bullet-intro"><?php the_sub_field('unit_introduction_para'); ?></p>
                     <?php endif; ?>
-                    <?php 
-                    $values = get_sub_field('unit_bullet_point');
-                    if ($values){ 
-                    echo '<ul class="bullet">';
-                    foreach($values as $value){
-                        echo '<li class="">'.$value['item_list'].'</li>'; 
-                    }
-                    echo '</ul>';
-                    } ?>
+
+                    <?php if( have_rows('unit_bullet_point') ): // Repeater Field Name ?>
+                    <ul class="bullet-black"> 
+                        <?php while( have_rows('unit_bullet_point') ): the_row(); ?>
+                            <li><?php the_sub_field('item_list'); ?></li>
+                        <?php endwhile; ?>
+                    </ul>
+                    <?php endif; ?>
+
                     <?php if( get_sub_field('unit_conclusion_para') ): ?>
                         <p><?php the_sub_field('unit_conclusion_para'); ?></p>
                     <?php endif; ?>

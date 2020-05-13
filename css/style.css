@@ -380,6 +380,13 @@ section.area--bg-orange-light {
     padding-left: 0;
     padding-right: 0; } }
 
+.block--resource {
+  background-color: #fef8f3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.5rem; }
+  .block--resource .block--resource-info {
+    padding: 1.5rem; }
+
 .block--step {
   margin-bottom: 3rem; }
   .block--step a {
