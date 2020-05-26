@@ -14,12 +14,13 @@ get_header(); ?>
 	                	<div class="large-offset-1 small-12 large-10 medium-12 cell text-center">
 	                	 	<h1 class="logo--hero"><?php the_field('home_main_title'); ?></h1>
 
-	                	 	<!-- Calling for fairness and equality
-							for small limited companies -->
+	                	 	<!-- Calling for fairness and equality for small limited companies -->
 							<!-- In caps as per FB page: https://www.facebook.com/groups/LtdCompanyDirectors/?fref=nf -->
 
-	                        <p class="home--hero font--bold">Welcome to The <strong>#ForgottenLtd</strong> Campaign for small limited company directors affected by the coronavirus pandemic in the UK. <strong>We need your help.</strong></p>
-	                        <a class="button button--cta-bk" href="https://petition.parliament.uk/petitions/310515" target="_blank"><i class="fas fa-pen-nib fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;Sign the petition</a>
+	                        <p class="home--hero font--bold"><?php the_field('home_main_intro'); ?></p>
+	                        <?php if( get_sub_field('add_button') ): ?>
+	                        	<a class="button button--cta-bk" href="<?php the_field('home_m_but_link'); ?>" target="_blank"><i class="fas fa-pen-nib fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;<?php the_field('home_m_but_cta'); ?></a>
+	                    	<?php endif; ?>
 
 	                        <p class="spacing--top-sm font--bold font--increase-lg color--bk signatures"><span class="signatures"></span><span style="border-bottom:5px solid black;margin-bottom:5px;">We need more.</span></p>
 	                        <!-- https://petition.parliament.uk/petitions.json -->
