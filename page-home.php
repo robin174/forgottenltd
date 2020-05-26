@@ -45,7 +45,7 @@ get_header(); ?>
 	                        <p><?php the_field('home_s_content'); ?></p>
 	                        <p><strong><?php the_field('home_s_content_cta'); ?></strong></p>
 	                        <?php if( get_field('add_mani_button') ): ?>
-	                        <a class="button button--cta-or" href="<?php the_field('home_mani_but_link'); ?>" target="_blank"><i class="fas fa-file-pdf fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;<?php the_field('home_mani_but_cta'); ?></a>
+	                        <a class="button button--cta-or" href="<?php the_field('home_man_but_link'); ?>" target="_blank"><i class="fas fa-file-pdf fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;<?php the_field('home_man_but_cta'); ?></a>
 	                        <?php endif; ?>
 	                    </div>
 	                    <div class="small-12 large-6 medium-6 cell small-order-1 medium-order-2">
