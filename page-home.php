@@ -12,7 +12,7 @@ get_header(); ?>
 	            <div class="grid-container">
 	                <div class="grid-x grid-padding-x">
 	                	<div class="large-offset-1 small-12 large-10 medium-12 cell text-center">
-	                	 	<h1 class="logo--hero">#ForgottenLtd</h1>
+	                	 	<h1 class="logo--hero"><?php the_field('home_main_title'); ?></h1>
 
 	                	 	<!-- Calling for fairness and equality
 							for small limited companies -->
@@ -53,7 +53,7 @@ get_header(); ?>
 	                    <div class="small-12 large-6 medium-6 cell small-order-1 medium-order-2">
 	                    	<iframe src="https://player.vimeo.com/video/414013285" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 	                    	<p class="video--inpage-credit"><i class="fas fa-copyright"></i>&nbsp;Lee Climpson from <a href="https://www.wearetransmission.com/" target="_blank" title="Transmission Productions">Transmission Productions</a></p>
-	                    </div>
+	                    </div> 
 	                </div><!-- end .row -->
 	            </div>
 	        </section>
