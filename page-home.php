@@ -18,7 +18,7 @@ get_header(); ?>
 							<!-- In caps as per FB page: https://www.facebook.com/groups/LtdCompanyDirectors/?fref=nf -->
 
 	                        <p class="home--hero font--bold"><?php the_field('home_main_intro'); ?></p>
-	                        <?php if( get_sub_field('add_button') ): ?>
+	                        <?php if( get_field('add_button') ): ?>
 	                        	<a class="button button--cta-bk" href="<?php the_field('home_m_but_link'); ?>" target="_blank"><i class="fas fa-pen-nib fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;<?php the_field('home_m_but_cta'); ?></a>
 	                    	<?php endif; ?>
 
