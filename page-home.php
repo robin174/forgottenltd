@@ -16,19 +16,16 @@ get_header(); ?>
 
 	                	 	<!-- Calling for fairness and equality for small limited companies -->
 							<!-- In caps as per FB page: https://www.facebook.com/groups/LtdCompanyDirectors/?fref=nf -->
-
 	                        <p class="home--hero font--bold"><?php the_field('home_main_intro'); ?></p>
 	                        <?php if( get_field('add_button') ): ?>
 	                        	<a class="button button--cta-bk" href="<?php the_field('home_m_but_link'); ?>" target="_blank"><i class="fas fa-pen-nib fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;<?php the_field('home_m_but_cta'); ?></a>
 	                    	<?php endif; ?>
 
+	                    	<!-- https://petition.parliament.uk/petitions.json -->
 	                        <p class="spacing--top-sm font--bold font--increase-lg color--bk signatures"><span class="signatures"></span><span style="border-bottom:5px solid black;margin-bottom:5px;">We need more.</span></p>
-	                        <!-- https://petition.parliament.uk/petitions.json -->
 	                        <script>
 	                        	var petitionURL = "https://petition.parliament.uk/petitions/310515.json";
 	                        	$.getJSON(petitionURL, function(data) {
-	                        		console.log(data);
-
 	                        		var pNo = data.data.attributes.signature_count;
 	                        		$("span.signatures").html("We currently have " + pNo + " signatures. " );
 	                        	});
@@ -44,16 +41,16 @@ get_header(); ?>
 	            <div class="grid-container">
 	                <div class="grid-x grid-padding-x">
 	                	<div class="small-12 large-6 medium-6 cell small-order-2 medium-order-1">
-	                        <h4 class="home--hero">We are small businesses.<h4>
-							<h4 class="home--hero">We do not qualify for any meaningful government support.</h4>
-	                        <p>The <strong>#ForgottenLtd</strong> Campaign exists to raise awareness of the lack of meaningful government support for the small business community across the UK. We call on the government to address this disparity by extending COVID-19 support packages to those of us left behind.</p>
-	                        <p><strong>We are asking for parity. We are asking not to be forgotten.</strong></p>
-	                        <a class="button button--cta-or" href="https://forgottenltd.com/wp-content/uploads/2020/05/ForgottenLtd-Manifesto-06May.pdf" target="_blank"><i class="fas fa-file-pdf fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;View our manifesto</a>
-	                        
+	                        <h4 class="home--hero"><?php the_field('home_s_intro'); ?></h4>
+	                        <p><?php the_field('home_s_content'); ?></p>
+	                        <p><strong><?php the_field('home_s_content_cta'); ?></strong></p>
+	                        <?php if( get_field('add_mani_button') ): ?>
+	                        <a class="button button--cta-or" href="<?php the_field('home_mani_but_link'); ?>" target="_blank"><i class="fas fa-file-pdf fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;<?php the_field('home_mani_but_cta'); ?></a>
+	                        <?php endif; ?>
 	                    </div>
 	                    <div class="small-12 large-6 medium-6 cell small-order-1 medium-order-2">
-	                    	<iframe src="https://player.vimeo.com/video/414013285" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-	                    	<p class="video--inpage-credit"><i class="fas fa-copyright"></i>&nbsp;Lee Climpson from <a href="https://www.wearetransmission.com/" target="_blank" title="Transmission Productions">Transmission Productions</a></p>
+	                    	<iframe src="https://player.vimeo.com/video/<?php the_field('home_vimeo_id'); ?>" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	                    	<p class="video--inpage-credit"><i class="fas fa-copyright"></i>&nbsp;<?php the_field('home_vimeo_credit'); ?></p>
 	                    </div> 
 	                </div><!-- end .row -->
 	            </div>
@@ -88,65 +85,10 @@ get_header(); ?>
 				                    </div>
 	                			</div>
 	                		</div>
-	                		<?php /*
-	                		<div class="grid-container">
-	                			<div class="grid-x grid-padding-x">
-	                				<div class="small-12 large-12 medium-12 cell">
-	                					<p class="color--or">For full details, signiclick here.</p>
-	                				</div>
-	                			</div>
-	                		</div>
-	                		*/ ?>
 	                	</div>
-	                	
 	                </div><!-- end .row -->
 	            </div>
 	        </section>
-
-
-			<?php /* NEED TO WORK THROUGH THIS
-	        <!-- 
-	        	Title, Intro sentence, black box with form field in white and orange button // 
-	        	And try orange box with form field in white and black button 
-	    	-->
-			<section class="area--bg-orange">
-	            <div class="grid-container">
-	                <div class="grid-x grid-padding-x">
-	                	<div class="medium-offset-2 small-12 large-9 medium-9 cell">
-	                	 	<h2>Signup</h2>
-	                        <p>Morbi sed cursus augue. Aliquam ex lectus, varius ut pretium id, ornare vel lacus.</p>
-	                        <form>
-								<div class="grid-container fluid">
-									<div class="grid-x">
-										<div class="medium-8 cell">
-											<label>
-												<input type="email" placeholder="Email address">
-											</label>
-										</div>
-										<div class="medium-4 cell">
-											<button type="submit" class="button button--cta-bk" value="Submit">Submit Issue</button>
-										</div>
-									</div>
-								</div>
-							</form>
-
-	                    </div>
-	                </div><!-- end .row -->
-	            </div>
-	        </section>
-	        
-	        <!-- Full width: Orange background -->
-	        <section class="area--bg-orange">
-	            <div class="grid-container">
-	                <div class="grid-x grid-padding-x">
-	                	<div class="large-offset-2 small-12 large-8 medium-8 cell">
-	                	 	<h2>Signup</h2>
-	                        <p>Morbi sed cursus augue. Aliquam ex lectus, varius ut pretium id, ornare vel lacus.</p>
-	                    </div>
-	                </div><!-- end .row -->
-	            </div>
-	        </section>
-	        */ ?>
 
 			<!-- Full width: Orange Light background -->
 	        <section class="area--bg-orange-light">
@@ -166,8 +108,6 @@ get_header(); ?>
 	                </div><!-- end .row -->
 	            </div>
 	        </section>
-
-	        
 
     	</main>
 	</div> <!-- end #content -->
