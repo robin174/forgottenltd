@@ -14,8 +14,6 @@ get_header(); ?>
 	                	<div class="large-offset-1 small-12 large-10 medium-12 cell text-center">
 	                	 	<h1 class="logo--hero"><?php the_field('home_main_title'); ?></h1>
 
-	                	 	<!-- Calling for fairness and equality for small limited companies -->
-							<!-- In caps as per FB page: https://www.facebook.com/groups/LtdCompanyDirectors/?fref=nf -->
 	                        <p class="home--hero font--bold"><?php the_field('home_main_intro'); ?></p>
 	                        <?php if( get_field('add_button') ): ?>
 	                        	<a class="button button--cta-bk" href="<?php the_field('home_m_but_link'); ?>" target="_blank"><i class="fas fa-pen-nib fa-2x" style="vertical-align: middle;"></i>&nbsp;&nbsp;<?php the_field('home_m_but_cta'); ?></a>

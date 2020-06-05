@@ -98,19 +98,6 @@
         </div>
     <?php endif; ?>
 
-    <!-- Might need one for Wisteria -->
-    <?php if(get_sub_field('unit_site') == "wisteria"): // If Wisteria Selected ?>
-        <div class="grid-container grid-x">
-            <div class="medium-offset-1 small-12 large-10 medium-10 cell">
-
-                <div class="responsive-embed wisteria">
-                    <iframe></iframe>
-                </div>
-
-            </div>
-        </div>
-    <?php endif; ?>
-
     <?php if(get_row_layout() == 'block_template_part'): // layout: Template Part ?>
         <div class="grid-container grid-x">
             <?php

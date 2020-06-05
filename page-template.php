@@ -27,9 +27,4 @@ get_header(); ?>
 		</main>
 	</div> <!-- end #content -->
 
-	<?php /*
-	<!-- Yet to find a reason to use this -->
-	<?php get_template_part('templates/area--foot-main'); ?>
-	*/ ?>
-
 <?php get_footer(); ?>
